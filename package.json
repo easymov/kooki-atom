@@ -1,10 +1,9 @@
 {
   "name": "Kooki",
   "main": "./lib/kooki",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Kooki tools for Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "kooki:bake"
   },
@@ -25,8 +24,6 @@
       }
     }
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
