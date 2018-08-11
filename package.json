@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "kooki:bake"
   },
-  "repository": "https://github.com/easymov/kooki",
+  "repository": "https://github.com/easymov/kooki-atom",
   "license": "BSD",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
