@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Kookicon";
+  src: url('atom://kooki/iconsets/kookicon/kookicon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kookicon:before,
+.kookicon-set {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Kookicon";
+  font-size: inherit;
+  text-rendering: auto;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.kookicon-kooki:before {
+  content: "\e900";
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Kooki",
+  "main": "./lib/kooki",
+  "version": "0.1.0",
+  "description": "Kooki tools for Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "kooki:bake"
+  },
+  "repository": "https://github.com/easymov/kooki",
+  "license": "BSD",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolbar"
+      }
+    },
+    "platformioIDETerminal": {
+      "versions": {
+        "^1.0.0": "consumePlatformioIDETerminal"
+      }
+    }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

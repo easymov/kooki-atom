@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Bake",
+        "command": "kooki:bake"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Kooki",
+          "submenu": [
+            {
+              "label": "Bake",
+              "command": "kooki:bake"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
