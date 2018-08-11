@@ -1,7 +1,7 @@
 {
   "name": "Kooki",
   "main": "./lib/kooki",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Kooki tools for Atom",
   "keywords": [
   ],
