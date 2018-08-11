@@ -1,12 +1,9 @@
 {
-  "name": "Kooki",
+  "name": "kooki",
   "main": "./lib/kooki",
   "version": "0.1.0",
   "description": "Kooki tools for Atom",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "kooki:bake"
-  },
   "repository": "https://github.com/easymov/kooki-atom",
   "license": "BSD",
   "engines": {
